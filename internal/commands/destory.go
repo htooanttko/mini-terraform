@@ -17,7 +17,7 @@ func DestroyCmd() {
 	varFile := fs.String("var-file", "vars.json", "path to vars json")
 	fs.Parse(os.Args[2:])
 	if *cfgPath == "" {
-		log.Fatal("destroy: -config is required")
+		log.Fatal("destroy: --config is required")
 	}
 	cfg, err := config.LoadConfig(*cfgPath, *varFile)
 	if err != nil {

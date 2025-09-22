@@ -72,10 +72,10 @@ Build:
 
 Examples:
   ./mini-terra init
-  ./mini-terra plan -config examples/config.json -var-file examples/vars.json
-  ./mini-terra apply -config examples/config.json -var-file examples/vars.json
+  ./mini-terra plan --config examples/config.json --var-file examples/vars.json
+  ./mini-terra apply --config examples/config.json --var-file examples/vars.json
   ./mini-terra show
-  ./mini-terra destroy -config examples/config.json -var-file examples/vars.json
+  ./mini-terra destroy --config examples/config.json --var-file examples/vars.json
   ./mini-terra version
 
 Notes:

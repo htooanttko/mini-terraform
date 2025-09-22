@@ -7,3 +7,4 @@ mini-terra.bin
 
 # Ignore OS-specific files
 /dist
+.DS_Store

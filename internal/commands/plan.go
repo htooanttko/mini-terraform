@@ -17,7 +17,7 @@ func PlanCmd() {
 	varFile := fs.String("var-file", "vars.json", "path to vars json")
 	fs.Parse(os.Args[2:])
 	if *cfgPath == "" {
-		log.Fatal("plan: -config is required")
+		log.Fatal("plan: --config is required")
 	}
 	cfg, err := config.LoadConfig(*cfgPath, *varFile)
 	if err != nil {

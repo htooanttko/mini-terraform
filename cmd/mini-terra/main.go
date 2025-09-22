@@ -35,6 +35,8 @@ func main() {
 		commands.ShowCmd()
 	case "version":
 		commands.Version()
+	case "template":
+		commands.TemplateCmd()
 	default:
 		commands.Usage()
 	}
