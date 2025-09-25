@@ -70,13 +70,15 @@ Features:
 Build:
   go build ./cmd/mini-terra
 
-Examples:
+Commands and Usage:
+  ./mini-terra 
   ./mini-terra init
   ./mini-terra plan --config examples/config.json --var-file examples/vars.json
   ./mini-terra apply --config examples/config.json --var-file examples/vars.json
   ./mini-terra show
   ./mini-terra destroy --config examples/config.json --var-file examples/vars.json
   ./mini-terra version
+  ./mini-terra template
 
 Notes:
 - Docker provider uses the docker CLI; ensure docker is installed and accessible.
