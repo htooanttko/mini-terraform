@@ -61,24 +61,30 @@ curl -sL https://github.com/dev-hak/mini-terraform/releases/download/v0.1.0/mini
 sudo mv mini-terra /usr/local/bin/
 ```
 
-Features:
+## Features:
 - JSON config + var-files
 - Commands: init, init-project, plan, apply, destroy, show, version
 - Local JSON state (.mini-terra/mini-terra.state.json)
 - Providers: docker (implemented), vps (ssh exec), aws (skeleton)
 
-Build:
-  go build ./cmd/mini-terra
+## Commands and Usage:
+```bash
+$ mini-terra
 
-Commands and Usage:
-  ./mini-terra 
-  ./mini-terra init
-  ./mini-terra plan --config examples/config.json --var-file examples/vars.json
-  ./mini-terra apply --config examples/config.json --var-file examples/vars.json
-  ./mini-terra show
-  ./mini-terra destroy --config examples/config.json --var-file examples/vars.json
-  ./mini-terra version
-  ./mini-terra template
+$ mini-terra init
+
+$ mini-terra plan --config examples/config.json --var-file examples/vars.json
+
+$ mini-terra apply --config examples/config.json --var-file examples/vars.json
+
+$ mini-terra show
+
+$ mini-terra destroy --config examples/config.json --var-file examples/vars.json
+
+$ mini-terra version
+
+$ mini-terra template
+```
 
 Notes:
 - Docker provider uses the docker CLI; ensure docker is installed and accessible.
