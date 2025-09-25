@@ -61,13 +61,13 @@ curl -sL https://github.com/dev-hak/mini-terraform/releases/download/v0.1.0/mini
 sudo mv mini-terra /usr/local/bin/
 ```
 
-## Features:
+## Features
 - JSON config + var-files
 - Commands: init, init-project, plan, apply, destroy, show, version
 - Local JSON state (.mini-terra/mini-terra.state.json)
 - Providers: docker (implemented), vps (ssh exec), aws (skeleton)
 
-## Commands and Usage:
+## Commands and Usage
 ```bash
 $ mini-terra
 
@@ -86,7 +86,7 @@ $ mini-terra version
 $ mini-terra template
 ```
 
-Notes:
+## Notes
 - Docker provider uses the docker CLI; ensure docker is installed and accessible.
 - VPS provider expects a private key path and SSH access.
 - State file contains sensitive info; do not commit to VCS.
