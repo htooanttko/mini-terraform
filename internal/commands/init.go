@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/dev-hak/mini-terraform/internal/state"
+	"github.com/htooanttko/mini-terraform/internal/state"
 )
 
 func InitCmd() {

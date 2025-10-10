@@ -6,14 +6,14 @@
 To install the `mini-terra` tool directly using Go, run the following command:
 
 ```bash
-go install github.com/dev-hak/mini-terraform/cmd/mini-terra@latest
+go install github.com/htooanttko/mini-terraform/cmd/mini-terra@latest
 ```
 
 ### macOS
 Download and install `mini-terra` for AMD64 using cURL:
 
 ```bash
-curl -sL https://github.com/dev-hak/mini-terraform/releases/download/v0.1.0/mini-terra_0.1.0_macOS_.amd64.tar.gz \
+curl -sL https://github.com/htooanttko/mini-terraform/releases/download/v0.1.0/mini-terra_0.1.0_macOS_.amd64.tar.gz \
   | tar xz
 sudo mv mini-terra /usr/local/bin/
 ```
@@ -21,7 +21,7 @@ sudo mv mini-terra /usr/local/bin/
 Download and install `mini-terra` for ARM64 using cURL:
 
 ```bash
-curl -sL https://github.com/dev-hak/mini-terraform/releases/download/v0.1.0/mini-terra_0.1.0_macOS_.arm64.tar.gz \
+curl -sL https://github.com/htooanttko/mini-terraform/releases/download/v0.1.0/mini-terra_0.1.0_macOS_.arm64.tar.gz \
   | tar xz
 sudo mv mini-terra /usr/local/bin/
 ```
@@ -32,7 +32,7 @@ sudo mv mini-terra /usr/local/bin/
 Install `mini-terra` for AMD64 with PowerShell:
 
 ```powershell
-Invoke-WebRequest https://github.com/dev-hak/mini-terraform/releases/download/v0.1.0/mini-terra_0.1.0_Windows_.amd64.tar.gz -OutFile mini-terra.zip
+Invoke-WebRequest https://github.com/htooanttko/mini-terraform/releases/download/v0.1.0/mini-terra_0.1.0_Windows_.amd64.tar.gz -OutFile mini-terra.zip
 Expand-Archive mini-terra.zip -DestinationPath .
 Move-Item mini-terra.exe C:\Windows\System32\
 ```
@@ -40,7 +40,7 @@ Move-Item mini-terra.exe C:\Windows\System32\
 Install `mini-terra` for ARM64 with PowerShell:
 
 ```powershell
-Invoke-WebRequest https://github.com/dev-hak/mini-terraform/releases/download/v0.1.0/mini-terra_0.1.0_Windows_.arm64.tar.gz -OutFile mini-terra.zip
+Invoke-WebRequest https://github.com/htooanttko/mini-terraform/releases/download/v0.1.0/mini-terra_0.1.0_Windows_.arm64.tar.gz -OutFile mini-terra.zip
 Expand-Archive mini-terra.zip -DestinationPath .
 Move-Item mini-terra.exe C:\Windows\System32\
 ```
@@ -49,14 +49,14 @@ Move-Item mini-terra.exe C:\Windows\System32\
 Download and install `mini-terra` for AMD64 using cURL:
 
 ```bash
-curl -sL https://github.com/dev-hak/mini-terraform/releases/download/v0.1.0/mini-terra_0.1.0_Linux_.amd64.tar.gz \
+curl -sL https://github.com/htooanttko/mini-terraform/releases/download/v0.1.0/mini-terra_0.1.0_Linux_.amd64.tar.gz \
   | tar xz
 sudo mv mini-terra /usr/local/bin/
 ```
 Download and install `mini-terra` for ARM64 using cURL:
 
 ```bash
-curl -sL https://github.com/dev-hak/mini-terraform/releases/download/v0.1.0/mini-terra_0.1.0_Linux_.arm64.tar.gz \
+curl -sL https://github.com/htooanttko/mini-terraform/releases/download/v0.1.0/mini-terra_0.1.0_Linux_.arm64.tar.gz \
   | tar xz
 sudo mv mini-terra /usr/local/bin/
 ```

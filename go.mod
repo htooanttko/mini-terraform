@@ -1,4 +1,4 @@
-module github.com/dev-hak/mini-terraform
+module github.com/htooanttko/mini-terraform
 
 go 1.24.5
 

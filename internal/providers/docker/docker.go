@@ -7,7 +7,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/dev-hak/mini-terraform/internal/providers"
+	"github.com/htooanttko/mini-terraform/internal/providers"
 )
 
 type DockerProvider struct {

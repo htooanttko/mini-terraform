@@ -4,11 +4,11 @@ import (
 	_ "embed"
 	"os"
 
-	"github.com/dev-hak/mini-terraform/internal/commands"
-	"github.com/dev-hak/mini-terraform/internal/providers"
-	awsProvider "github.com/dev-hak/mini-terraform/internal/providers/aws"
-	dockerProvider "github.com/dev-hak/mini-terraform/internal/providers/docker"
-	vpsProvider "github.com/dev-hak/mini-terraform/internal/providers/vps"
+	"github.com/htooanttko/mini-terraform/internal/commands"
+	"github.com/htooanttko/mini-terraform/internal/providers"
+	awsProvider "github.com/htooanttko/mini-terraform/internal/providers/aws"
+	dockerProvider "github.com/htooanttko/mini-terraform/internal/providers/docker"
+	vpsProvider "github.com/htooanttko/mini-terraform/internal/providers/vps"
 )
 
 func main() {

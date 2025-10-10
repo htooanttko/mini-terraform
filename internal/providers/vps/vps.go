@@ -7,7 +7,7 @@ import (
 
 	"golang.org/x/crypto/ssh"
 
-	"github.com/dev-hak/mini-terraform/internal/providers"
+	"github.com/htooanttko/mini-terraform/internal/providers"
 )
 
 type VPSProvider struct {

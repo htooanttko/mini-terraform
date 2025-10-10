@@ -3,7 +3,7 @@ package commands
 import (
 	"fmt"
 
-	"github.com/dev-hak/mini-terraform/internal/state"
+	"github.com/htooanttko/mini-terraform/internal/state"
 )
 
 func ShowCmd() {

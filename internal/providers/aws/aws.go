@@ -3,7 +3,7 @@ package providers
 import (
 	"fmt"
 
-	"github.com/dev-hak/mini-terraform/internal/providers"
+	"github.com/htooanttko/mini-terraform/internal/providers"
 )
 
 type AWSProvider struct {

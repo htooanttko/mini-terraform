@@ -3,8 +3,8 @@ package engine
 import (
 	"fmt"
 
-	"github.com/dev-hak/mini-terraform/internal/providers"
-	st "github.com/dev-hak/mini-terraform/internal/state"
+	"github.com/htooanttko/mini-terraform/internal/providers"
+	st "github.com/htooanttko/mini-terraform/internal/state"
 )
 
 func Apply(plan *Plan, state *st.State) (*st.State, error) {

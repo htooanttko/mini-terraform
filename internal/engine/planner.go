@@ -3,9 +3,9 @@ package engine
 import (
 	"fmt"
 
-	"github.com/dev-hak/mini-terraform/internal/config"
-	"github.com/dev-hak/mini-terraform/internal/providers"
-	st "github.com/dev-hak/mini-terraform/internal/state"
+	"github.com/htooanttko/mini-terraform/internal/config"
+	"github.com/htooanttko/mini-terraform/internal/providers"
+	st "github.com/htooanttko/mini-terraform/internal/state"
 )
 
 type Plan struct {
