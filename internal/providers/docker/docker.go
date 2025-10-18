@@ -82,11 +82,9 @@ func (d *DockerProvider) Update(resourceType, id string, attrs map[string]interf
 	if resourceType != "docker_container" {
 		return nil, errors.New("unsupported docker resource: " + resourceType)
 	}
-	// Stop and remove the existing container
 	if err := exec.Command("docker", "rm", "-f", id).Run(); err != nil {
 		return nil, fmt.Errorf("failed to remove existing container: %v", err)
 	}
-	// Recreate the container with updated attributes
 	newID, stateAttrs, err := d.Create(resourceType, id, attrs)
 	if err != nil {
 		return nil, fmt.Errorf("failed to recreate container: %v", err)
@@ -96,7 +94,6 @@ func (d *DockerProvider) Update(resourceType, id string, attrs map[string]interf
 }
 
 func (d *DockerProvider) Delete(resourceType, id string) error {
-	// Remove the container
 	if err := exec.Command("docker", "rm", "-f", id).Run(); err != nil {
 		return err
 	}
